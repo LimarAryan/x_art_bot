@@ -13,3 +13,6 @@ CREATE TABLE published_images (
     depictstmsobjectid INTEGER,
     assistivetext TEXT
 );
+
+
+--Add objects table to get title, artist, and year
