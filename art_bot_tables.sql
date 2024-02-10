@@ -49,3 +49,14 @@ CREATE TABLE object (
     customprinturl VARCHAR(512)
 );
 
+--creates new table 'artwork_details' by joining information from the published_images + objects table
+CREATE OR REPLACE VIEW artwork_details AS
+SELECT
+    pi.uuid,
+    o.title,
+    o.displaydate, -- Using displaydate directly for the artwork's year
+    o.attribution AS artist -- Using attribution for the artist's name
+FROM
+    published_images pi
+JOIN
+    objects o ON pi.uuid = o.objectid;
