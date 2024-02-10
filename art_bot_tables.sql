@@ -30,21 +30,22 @@ CREATE TABLE object (
     dimensions VARCHAR(2048),
     inscription VARCHAR,
     markings VARCHAR,
-    attributioninverted --TODO: Add Variable Types
-    attribution
-    provenancetext
-    creditline
-    classification
-    subclassification
-    visualbrowserclassification
-    parentid
-    isvirtual
-    departmentabbr
-    portfolio
-    series
-    volume
-    watermarks
-    lastdetectedmodification
-    wikidataid
-    customprinturl
+    attributioninverted VARCHAR(1024),
+    attribution VARCHAR(1024),
+    provenancetext VARCHAR,
+    creditline VARCHAR(2048),
+    classification VARCHAR(64),
+    subclassification VARCHAR(32),
+    visualbrowserclassification INTEGER,
+    parentid INTEGER,
+    isvirtual INTEGER,
+    departmentabbr VARCHAR(32),
+    portfolio VARCHAR(32),
+    series VARCHAR(850),
+    volume VARCHAR(850),
+    watermarks VARCHAR(512),
+    lastdetectedmodification TIMESTAMP WITH TIME ZONE,
+    wikidataid VARCHAR(64),
+    customprinturl VARCHAR(512)
 );
+
