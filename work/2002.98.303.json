@@ -1,0 +1,16 @@
+{
+  "objectid": 123714,
+  "accessionnum": "2002.98.303",
+  "title": "Untitled",
+  "displaydate": null,
+  "medium": "graphite on wove paper",
+  "dimensions": "overall: 23.1 x 29.4 cm (9 1/8 x 11 9/16 in.)",
+  "attribution": "Alfred Kubin",
+  "creditline": "Gift of Jacob Kainen",
+  "imagecopyright": null,
+  "filepath": "20/8B638021-5A9D-477D-B26B-6C92E475BBC9.jpg",
+  "imgvolumepath": "/iiif/public/objects/1/2/3/7/1/4/",
+  "filename": "123714-primary-0-nativeres.ptif/full/!250,250/0/default.jpg",
+  "iiif": "https://media.nga.gov/iiif/public/objects/1/2/3/7/1/4/123714-primary-0-nativeres.ptif/full/!800,800/0/default.jpg",
+  "neighbors": ["2002.98.301", "1950.17.234", "1980.45.520", "2008.115.188", "1950.16.154", "1984.64.3"]
+}

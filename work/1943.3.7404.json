@@ -1,0 +1,16 @@
+{
+  "objectid": 10200,
+  "accessionnum": "1943.3.7404",
+  "title": "Antonin Proust",
+  "displaydate": "1885",
+  "medium": "drypoint",
+  "dimensions": null,
+  "attribution": "Auguste Rodin",
+  "creditline": "Rosenwald Collection",
+  "imagecopyright": null,
+  "filepath": "44/EB1B4D06-7980-465F-8EB8-D53315A3AF19.jpg",
+  "imgvolumepath": "/iiif/public/objects/1/0/2/0/0/",
+  "filename": "10200-primary-0-nativeres.ptif/full/!90,90/0/default.jpg",
+  "iiif": "https://media.nga.gov/iiif/public/objects/1/0/2/0/0/10200-primary-0-nativeres.ptif/full/!800,800/0/default.jpg",
+  "neighbors": ["1943.3.7403", "1943.3.5363", "2011.60.48", "1980.45.528", "1952.10.4", "1980.45.677"]
+}

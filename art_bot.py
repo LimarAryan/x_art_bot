@@ -1,9 +1,11 @@
 import psycopg2 #database adapter for python + postgresql
 import tweepy #Twitter API
+
+import json
+import requests
+
 import random
 import time
-import requests
-import json
 import datetime
 
 # PostgreSQL database configuration
@@ -18,6 +20,7 @@ CONSUMER_KEY = "your_consumer_key"
 CONSUMER_SECRET = "your_consumer_secret"
 ACCESS_TOKEN = "your_access_token"
 ACCESS_TOKEN_SECRET = "your_access_token_secret"
+
 
 
 # TODO: Create a DatabaseManager class
@@ -180,32 +183,7 @@ def task():
     #TODO: create controller task organize functions
 
 def main():
-    # Connect to the database
-    connection = connect_to_database()
-    if connection is None:
-        return
-
-    # Authenticate to Twitter API
-    auth = tweepy.OAuth1UserHandler(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-    api = tweepy.API(auth)
-
-    # Get a random artwork from the database
-    artwork = get_random_artwork(connection)
-    if artwork:
-        # Post a tweet with the artwork information
-        post_tweet(api, artwork)
-
-    # Close the database connection
-    connection.close()
+    True
 
 if __name__ == "__main__":
     main()
-
-
-    
-
-
-
-#TODO: Create a separate incremental checker to clear out
-#      used (posted) artwork after 3-6 months of date they
-#      were tweeted

@@ -1,0 +1,16 @@
+{
+  "objectid": 6789,
+  "accessionnum": "1943.3.3671",
+  "title": "Cain Killing Abel",
+  "displaydate": "1511",
+  "medium": "woodcut",
+  "dimensions": null,
+  "attribution": "Albrecht Dürer",
+  "creditline": "Rosenwald Collection",
+  "imagecopyright": null,
+  "filepath": "10/3CE85229-0227-464F-8382-003360C9204D.jpg",
+  "imgvolumepath": "/iiif/public/objects/6/7/8/9/",
+  "filename": "6789-primary-0-nativeres.ptif/full/!140,90/0/default.jpg",
+  "iiif": "https://media.nga.gov/iiif/public/objects/6/7/8/9/6789-primary-0-nativeres.ptif/full/!800,800/0/default.jpg",
+  "neighbors": ["1943.3.7347", "1963.1.7", "1972.65.35", "1943.3.5636", "1941.1.140", "1963.11.21"]
+}

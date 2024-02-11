@@ -1,0 +1,16 @@
+{
+  "objectid": 123241,
+  "accessionnum": "2001.124.7",
+  "title": "New York",
+  "displaydate": "1962",
+  "medium": "gelatin silver print",
+  "dimensions": "sheet (trimmed to image): 24.7 x 18.1 cm (9 3/4 x 7 1/8 in.)",
+  "attribution": "André Kertész",
+  "creditline": "Gift of The André and Elizabeth Kertész Foundation",
+  "imagecopyright": null,
+  "filepath": "31/090C48E1-2B1C-4DC2-89A6-38466780D77E.jpg",
+  "imgvolumepath": "/iiif/public/objects/1/2/3/2/4/1/",
+  "filename": "123241-primary-0-nativeres.ptif/full/!325,370/0/default.jpg",
+  "iiif": "https://media.nga.gov/iiif/public/objects/1/2/3/2/4/1/123241-primary-0-nativeres.ptif/full/!800,800/0/default.jpg",
+  "neighbors": ["2012.92.296", "1943.8.17058", "1943.3.8942", "2014.11.25", "1949.3.1278.30", "1943.8.16575"]
+}

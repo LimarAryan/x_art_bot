@@ -1,1 +1,0 @@
-directory to add downloaded images to tweet

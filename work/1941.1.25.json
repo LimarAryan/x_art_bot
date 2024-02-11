@@ -1,0 +1,16 @@
+{
+  "objectid": 603,
+  "accessionnum": "1941.1.25",
+  "title": "The Last Supper",
+  "displaydate": "1523",
+  "medium": "woodcut",
+  "dimensions": "image: 21.3 x 30.3 cm (8 3/8 x 11 15/16 in.)\r\nsheet: 23 x 31.7 cm (9 1/16 x 12 1/2 in.)",
+  "attribution": "Albrecht Dürer",
+  "creditline": "Gift of W.G. Russell Allen",
+  "imagecopyright": null,
+  "filepath": "26/2A921307-5B7E-4787-8880-E8972790E513.jpg",
+  "imgvolumepath": "/iiif/public/objects/6/0/3/",
+  "filename": "603-primary-0-nativeres.ptif/full/!440,400/0/default.jpg",
+  "iiif": "https://media.nga.gov/iiif/public/objects/6/0/3/603-primary-0-nativeres.ptif/full/!800,800/0/default.jpg",
+  "neighbors": ["1943.3.3688", "1964.8.1574", "1964.8.1248", "1964.8.1249", "1943.3.1218", "1943.3.3581"]
+}
