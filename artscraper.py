@@ -21,12 +21,12 @@ if not os.path.exists(art_images):
 # Initialize or load processed entries from the log
 if not os.path.exists(processed_log):
     with open(processed_log, 'w') as log_file:
-        json.dump({"filenames": [], "count": 0}, log_file)
+        json.dump({"filenames": {}, "count": 0}, log_file)
 
 with open(processed_log, 'r') as log_file:
     log_data = json.load(log_file)
 
-processed_entries = set(log_data["filenames"])
+processed_entries = log_data["filenames"]
 file_count = log_data["count"] - 1
 
 list_JSON_paths = glob.glob(os.path.join("work", '*.json'))
@@ -46,6 +46,12 @@ for file_path in list_JSON_paths:
     if filename not in processed_entries:
         print(f"Processing file #{file_count + 1}: {filename}")
 
+        # Store metadata
+        processed_entries[filename] = {
+            "title": title,
+            "displaydate": date,
+            "attribution": artist
+        }
 
         if not os.path.exists(filepath):
             URL_to_Image = openJSON.get("iiif", "")
@@ -55,10 +61,8 @@ for file_path in list_JSON_paths:
                     with open(filepath, 'wb') as img:
                         img.write(response.content)
                     print(f"Downloaded {filename}")
-                    processed_entries.add(filename)
                     file_count += 1
                     print(file_count)
-                    log_data["filenames"] = list(processed_entries)
                     log_data["count"] = file_count
                     with open(processed_log, 'w') as log_file:
                         json.dump(log_data, log_file, indent=4)
@@ -68,8 +72,5 @@ for file_path in list_JSON_paths:
             print(f"{filename} already exists. Skipping download.")
     else:
         print(f"Skipping already processed entry: {filename}")
-
-# Update the log file
-
 
 print("Finished processing. Total files processed: {count}")
