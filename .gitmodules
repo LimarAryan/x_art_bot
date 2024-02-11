@@ -1,0 +1,3 @@
+[submodule "opendata"]
+	path = opendata
+	url = https://github.com/NationalGalleryOfArt/opendata.git
