@@ -10,5 +10,7 @@ the National Gallery of Art.
 The file can be found here, and is called "nearest_neighbors.tar.gz": 
 https://kilthub.cmu.edu/articles/dataset/National_Gallery_of_Art_InceptionV3_Features/10061885
 
+This version runs in a local environment, however I am running the real
+version on an aws lambda function, using an s3 bucket, and dynamodb.
 
-I will do a more in-depth write up later.
+I will do an in-depth write up later.
