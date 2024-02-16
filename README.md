@@ -1,6 +1,6 @@
 # Twitter Art Bot🖼️ @x_art_bot🎨
 
-## Project is live! 
+Project is live! 
 **[Click here](https://twitter.com/x_art_bot)**
 to check it out
 
