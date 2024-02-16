@@ -1,4 +1,4 @@
-#Lambda code for AWS
+#Lambda code for AWS deployment
 import tweepy
 import os
 import json
