@@ -1,4 +1,5 @@
-# @x_art_bot🎨## Twitter Art Bot🖼️
+# @x_art_bot🎨
+## Twitter Art Bot🖼️
 
 Project is live! 
 [Click here](https://twitter.com/x_art_bot) to check it out
