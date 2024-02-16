@@ -6,7 +6,8 @@ to check it out
 <img src = 'https://github.com/LimarAryan/x_art_bot/assets/110574851/7b08c739-30fc-430e-a9ac-4735ddb2e647' width = '250'>
 
 
-#work folder\
+#work folder
+
 'work' folder with JSON info provided by\
 Carnegie Mellon University with 100,000\
 crawled image sites from the National\
