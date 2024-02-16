@@ -3,7 +3,7 @@
 >Using the National Gallery of Art's 
 online open access for artwork images
 
-![GGFxUMfXcAA_uB3](https://github.com/LimarAryan/x_art_bot/assets/110574851/7b08c739-30fc-430e-a9ac-4735ddb2e647)
+<img src = "https://github.com/LimarAryan/x_art_bot/assets/110574851/7b08c739-30fc-430e-a9ac-4735ddb2e647" width = '500'>
 
 Project is live! 
 
