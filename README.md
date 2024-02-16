@@ -11,7 +11,8 @@ The 'work' folder containing JSON data is provided by\
 Carnegie Mellon University with 100,000\
 already scraped / crawled image sites and metadata.\
 The file can be found at this link and is called\
-"nearest_neighbors.tar.gz"\\
+"nearest_neighbors.tar.gz"\:
+
 [Download nearest_neighbors](https://kilthub.cmu.edu/articles/dataset/National_Gallery_of_Art_InceptionV3_Features/10061885)
 
 
