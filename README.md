@@ -16,7 +16,7 @@ cd x_art_bot
 ```
 3. Run art_scraper.py from inside directory</br>
 until you are satisfied with the amount of downloaded images</br>
-**Warning: if you leave it running you will continuously download files**
+**Warning**: if you leave it running continuously you will download </br>100,000 image files
 ```bash
 python art_scraper.py
 ```
