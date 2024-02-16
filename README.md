@@ -5,13 +5,13 @@ to check it out
 
 <img src = 'https://github.com/LimarAryan/x_art_bot/assets/110574851/7b08c739-30fc-430e-a9ac-4735ddb2e647' width = '250'>
 
-# How to run in a local environment
+# How to install and run in a local environment
 <ol>
   <li>
-    Clone this repo to a local directory
+    Clone this repo to a local directory `git clone https://github.com/LimarAryan/x_art_bot.git`
   </li>
 </ol>
-`git clone https://github.com/LimarAryan/x_art_bot.git`
+
 ## Work Folder
 The 'work' folder containing JSON data</br>
 is provided by Carnegie Mellon University</br>
