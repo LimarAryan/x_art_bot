@@ -17,7 +17,7 @@ cd x_art_bot
 3. Run art_scraper.py from inside directory</br>
 until you are satisfied with the amount of downloaded images</br>
 </br>**Warning**: if you leave it running continuously you will download 100,000 image files
-Close terminal or Click CTRL + C to exit out of python script when you are ready
+</br>Close terminal or Click CTRL + C to exit out of python script when you are ready
 ```bash
 python art_scraper.py
 ```
