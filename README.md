@@ -9,11 +9,9 @@ to check it out
 <ol>
   <li>
     Clone this repo to a local directory
-    ```shell
-    git clone https://github.com/LimarAryan/x_art_bot.git```
   </li>
 </ol>
-
+`git clone https://github.com/LimarAryan/x_art_bot.git`
 ## Work Folder
 The 'work' folder containing JSON data</br>
 is provided by Carnegie Mellon University</br>
