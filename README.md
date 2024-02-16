@@ -10,7 +10,15 @@ to check it out
    ```bash
    git clone https://github.com/LimarAryan/x_art_bot.git
    ```
-
+2. Switch to repository folder
+```bash
+cd x_art_bot
+```
+3. Run art_scraper.py until you are satisfied with amount of downloaded images
+**Warning: if you leave it running you will continuously download files**
+```bash
+python art_bot.py
+```
 
 # Work Folder
 The 'work' folder containing JSON data</br>
