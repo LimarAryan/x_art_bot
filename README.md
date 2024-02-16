@@ -7,9 +7,9 @@ to check it out
 
 # How to install and run in a local environment
 1. Clone this repo to a local directory
-   ```bash
-   git clone https://github.com/LimarAryan/x_art_bot.git
-   ```
+```bash
+git clone https://github.com/LimarAryan/x_art_bot.git
+```
 2. Switch to repository folder
 ```bash
 cd x_art_bot
