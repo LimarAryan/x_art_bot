@@ -11,9 +11,9 @@ to check it out
     Clone this repo to a local directory</br>
   </li>
 </ol>
-  ```bash 
-  git clone https://github.com/LimarAryan/x_art_bot.git
-  ```
+```bash 
+git clone https://github.com/LimarAryan/x_art_bot.git
+```
 
 
 ## Work Folder
