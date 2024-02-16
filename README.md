@@ -30,8 +30,8 @@ python art_scraper.py
 </br>Twitter's documentation for 3-legged OAuth flow can be found [HERE](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens)
 </br></br>Here is an example of python code needed for the 3-legged OAuth flow
 </br>to get your `access_token` and `access_token_secret`, you can copy and paste the code below
-</br>into **art_bot.py**, run the python program once and copy and paste `access_token` and `access_token_secret`
-</br>from the print message on the terminal, after these are obtained you can delete this code from the program
+</br>into **art_bot.py**, run the python program once and a print message on the terminal should pop up with your
+</br> `access_token` and `access_token_secret`, after these are obtained you can delete this code from the program
 ```python
 import requests
 from urllib.parse import quote
