@@ -8,12 +8,12 @@ to check it out
 
 ## Work Folder
 The 'work' folder containing JSON data</br>
-is provided by Carnegie Mellon University\
-with 100,000 already scraped / crawled image\
-sites and metadata. You can download it\
-from my repo, or from this link as a zipped\
-file called "nearest_neighbors.tar.gz"\:
-</br>[Download Link](https://kilthub.cmu.edu/articles/dataset/National_Gallery_of_Art_InceptionV3_Features/10061885)</br>
+is provided by Carnegie Mellon University</br>
+with 100,000 already scraped / crawled image</br>
+sites and metadata. You can download it</br>
+from my repo, or from this link as a zipped</br>
+file called "nearest_neighbors.tar.gz":</br>
+</br>[Download Link](https://kilthub.cmu.edu/articles/dataset/National_Gallery_of_Art_InceptionV3_Features/10061885)
 
 ## Version info
 This version runs in a local environment\,
