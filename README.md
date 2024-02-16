@@ -8,7 +8,10 @@ to check it out
 # How to install and run in a local environment
 <ol>
   <li>
-    Clone this repo to a local directory `git clone https://github.com/LimarAryan/x_art_bot.git`
+    Clone this repo to a local directory
+    <li>
+      `git clone https://github.com/LimarAryan/x_art_bot.git`
+    </li>
   </li>
 </ol>
 
