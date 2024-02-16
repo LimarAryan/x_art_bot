@@ -1,12 +1,13 @@
 # Twitter Art Bot🖼️ @x_art_bot🎨
+>Using the National Gallery of Art's 
+online open access for artwork images
 
 Project is live! 
 
 **[Click here](https://twitter.com/x_art_bot)**
 to check it out
 
-Using the National Gallery of Art's 
-online open access for artwork images
+
 
 Done through the 'work' folder
     'work' folder with JSON info provided by 
