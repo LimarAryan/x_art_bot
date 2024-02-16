@@ -1,7 +1,7 @@
 # Twitter Art Bot🖼️ @x_art_bot🎨
 >Using the National Gallery of Art's 
 online open access for artwork images
-(https://media.nga.gov/iiif/53b11b32-8e95-41d4-bb53-a55931823419/full/!750,900/0/default.jpg)
+[alt text](https://media.nga.gov/iiif/53b11b32-8e95-41d4-bb53-a55931823419/full/!750,900/0/default.jpg)
 
 Project is live! 
 
