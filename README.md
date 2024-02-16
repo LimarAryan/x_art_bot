@@ -34,7 +34,41 @@ api_secret = "x"
 access_token = "x"
 access_token_secret = "x"
 ```
-**NOTE:** You must use a three-legged flow to get `access_token` and `access_token_secret`
+**NOTE:** You must use a 3-legged OAuth API flow to get `access_token` and `access_token_secret`
+</br>Documentation for 3-legged OAuth flow can be found [here](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens)
+</br>Here is an example of python code needed for the 3-legged OAuth flow
+</br>to get your `access_token` and `access_token_secret`, once this is run 
+</br>and these are obtained you can delete this code from the program
+```python
+import requests
+from urllib.parse import quote
+
+# Your credentials
+#The API Key and API Secret can be found in your twitter developer portal under 'Keys and Tokens'
+#The CALLBACK_URL can be found in the User authentication settings in the twitter developer portal
+api_key = 'YourAPIKey'
+api_secret = 'YourAPISecret'
+CALLBACK_URL = 'https://api.twitter.com/oauth/authorize?oauth_token={YOUR_OAUTH_TOKEN}' #example link
+
+
+# Step 1: Encode callback URL and get request token
+callback_encoded = quote(CALLBACK_URL, safe='')
+response = requests.post(f"https://api.twitter.com/oauth/request_token?oauth_callback={callback_encoded}", auth=(api_key, api_secret))
+
+if response.status_code == 200:
+    # Extract token and secret from response
+    oauth_token, oauth_token_secret = response.text.split('&')[0], response.text.split('&')[1]
+    print("Request Token and Secret obtained.")
+
+    # Step 2: Redirect user to Twitter for authorization
+    # Direct the user to this URL
+    print(f"https://api.twitter.com/oauth/authorize?oauth_token={oauth_token}")
+
+    # Step 3 would occur after the user has authorized the app and you've received the oauth_verifier
+    # This part would typically be handled by your web server handling the callback
+else:
+    print("Failed to obtain request token.")
+```
 
 # Work Folder
 The 'work' folder containing JSON data</br>
