@@ -6,14 +6,10 @@ to check it out
 <img src = 'https://github.com/LimarAryan/x_art_bot/assets/110574851/7b08c739-30fc-430e-a9ac-4735ddb2e647' width = '250'>
 
 # How to install and run in a local environment
-<ol>
-  <li>
-    Clone this repo to a local directory</br>
-  </li>
-</ol>
-```bash 
-git clone https://github.com/LimarAryan/x_art_bot.git
-```
+1. Clone this repo to a local directory
+        ```bash
+           git clone
+           ```
 
 
 ## Work Folder
