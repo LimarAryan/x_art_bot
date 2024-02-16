@@ -14,12 +14,12 @@ git clone https://github.com/LimarAryan/x_art_bot.git
 ```bash
 pip install tweepy
 ```
-2. Switch to cloned repository folder
+2. Switch to the cloned repository folder
 ```bash
-cd x_art_bot
+cd path_to_directory\x_art_bot
 ```
 3. Run art_scraper.py from inside the directory</br>
-until you are satisfied with the amount of downloaded images</br>
+until you are satisfied with the amount of downloaded images into the **art_images** folder</br>
 ```bash
 python art_scraper.py
 ```
