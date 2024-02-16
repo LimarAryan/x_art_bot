@@ -71,7 +71,10 @@ api_secret = "x"
 access_token = "x"
 access_token_secret = "x"
 ```
-**NOTE:** 
+7. Run art_bot.py to post a random artwork image from `x_art_bot/art_images`
+```bash
+python art_scraper.py
+```
 
 # Work Folder
 The 'work' folder containing JSON data</br>
