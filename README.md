@@ -7,7 +7,7 @@ to check it out
 
 # How to install and run in a local environment
 1. Clone this repo to a local directory
-        ```bash
+   ```bash
            git clone
            ```
 
