@@ -10,17 +10,31 @@ to check it out
 ```bash
 git clone https://github.com/LimarAryan/x_art_bot.git
 ```
-2. Switch to repository folder
+2. Install tweepy, a python twitter package
+```bash
+pip install tweepy
+```
+2. Switch to cloned repository folder
 ```bash
 cd x_art_bot
 ```
-3. Run art_scraper.py from inside directory</br>
+3. Run art_scraper.py from inside the directory</br>
 until you are satisfied with the amount of downloaded images</br>
 ```bash
 python art_scraper.py
 ```
-</br>**Warning**: if you leave it running continuously you will download 100,000 image files
-</br>Close terminal or Click CTRL + C to exit out of python script when you are ready
+**WARNING**: if you leave this script running continuously it will download 100,000 image files
+</br>Close terminal or Click CTRL + C to exit out of python script 
+</br>when you are satisfied with the image amount
+
+4. On line 8-11 in art_bot.py fill in your API keys:
+```python
+api_key = "x"
+api_secret = "x"
+access_token = "x"
+access_token_secret = "x"
+```
+**NOTE:** You must use a three-legged flow to get `access_token` and `access_token_secret`
 
 # Work Folder
 The 'work' folder containing JSON data</br>
