@@ -3,7 +3,7 @@
 Project is live: **[Click here](https://twitter.com/x_art_bot)**
 to check it out
 
-`git clone https://github.com/LimarAryan/x_art_bot.git`
+`bash git clone https://github.com/LimarAryan/x_art_bot.git`
 
 <img src = 'https://github.com/LimarAryan/x_art_bot/assets/110574851/7b08c739-30fc-430e-a9ac-4735ddb2e647' width = '250'>
 
