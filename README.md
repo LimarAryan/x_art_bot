@@ -2,7 +2,6 @@
 
 Project is live! 
 
-
 **[Click here](https://twitter.com/x_art_bot)**
 to check it out
 
