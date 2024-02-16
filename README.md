@@ -76,7 +76,7 @@ access_token_secret = "x"
 ```
 7. Run art_bot.py to post a random artwork image from `x_art_bot/art_images`
 ```bash
-python art_scraper.py
+python art_bot.py
 ```
 
 # Work Folder
