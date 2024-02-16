@@ -1,6 +1,8 @@
 # Twitter Art Bot🖼️ @x_art_bot🎨
 
 Project is live! 
+
+
 **[Click here](https://twitter.com/x_art_bot)**
 to check it out
 
@@ -20,4 +22,4 @@ however I am running the real
 version on an aws lambda function, 
 using an s3 bucket, and dynamodb.
 
-I will do an in-depth write up later 😏🤩
+I will do an in-depth write up soon 😏🤩
