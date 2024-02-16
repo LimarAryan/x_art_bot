@@ -3,18 +3,18 @@
 Project is live: **[Click here](https://twitter.com/x_art_bot)**
 to check it out
 
-```bash 
-git clone https://github.com/LimarAryan/x_art_bot.git
-```
-
 <img src = 'https://github.com/LimarAryan/x_art_bot/assets/110574851/7b08c739-30fc-430e-a9ac-4735ddb2e647' width = '250'>
 
 # How to install and run in a local environment
 <ol>
   <li>
-    Clone this repo to a local directory
+    Clone this repo to a local directory</br>
+```bash 
+  git clone https://github.com/LimarAryan/x_art_bot.git
+  ```
   </li>
 </ol>
+
 
 ## Work Folder
 The 'work' folder containing JSON data</br>
