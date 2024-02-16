@@ -12,7 +12,7 @@ to check it out
    ```
 
 
-## Work Folder
+# Work Folder
 The 'work' folder containing JSON data</br>
 is provided by Carnegie Mellon University</br>
 with 100,000 already scraped / crawled image</br>
@@ -21,7 +21,7 @@ from my repo, or from this link as a zipped</br>
 file called "nearest_neighbors.tar.gz":</br>
 [Download Link](https://kilthub.cmu.edu/articles/dataset/National_Gallery_of_Art_InceptionV3_Features/10061885)
 
-## Version info
+# Version info
 This version runs in a local environment,</br>
 however I am running the real</br>
 version on an aws lambda function,</br>
