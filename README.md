@@ -8,8 +8,7 @@ Check it out
 Using the National Gallery of Art's 
 online open access for artwork images
 
-Done through the 'work' folder-
-    
+Done through the 'work' folder
     'work' folder with JSON info provided by 
     Carnegie Mellon University with 100,000 
     crawled image sites from the National 
