@@ -89,5 +89,3 @@ This version runs in a local environment,</br>
 however I am running the real</br>
 version on an aws lambda function,</br>
 using an s3 bucket, and dynamodb.
-
-I will do an in-depth write up soon 😏🤩
