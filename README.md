@@ -18,13 +18,13 @@ cd path_to_directory\x_art_bot
 ```bash
 pip install tweepy
 ```
-4. Run art_scraper.py from inside the directory</br>
+4. Run _art_scraper.py_ from inside the directory</br>
 until you are satisfied with the amount of downloaded images into the **art_images** folder</br>
 ```bash
 python art_scraper.py
 ```
 **WARNING**: if you leave this script running continuously it will download 100,000 image files
-</br>Close terminal or Click CTRL + C to exit out of python script 
+</br>Close terminal or Click CTRL + C to exit out of the _art_scraper.py_ python script 
 </br>when you are satisfied with the image amount
 
 5. Use a 3-legged OAuth API flow to get `access_token` and `access_token_secret`
