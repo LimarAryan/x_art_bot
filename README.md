@@ -7,7 +7,7 @@ to check it out
 
 
 ## Work Folder
-The 'work' folder containing JSON data
+The 'work' folder containing JSON data\
 is provided by Carnegie Mellon University\ 
 with 100,000 already scraped / crawled image\ 
 sites and metadata. You can download it\
