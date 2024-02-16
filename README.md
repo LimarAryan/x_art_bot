@@ -13,7 +13,7 @@ with 100,000 already scraped / crawled image</br>
 sites and metadata. You can download it</br>
 from my repo, or from this link as a zipped</br>
 file called "nearest_neighbors.tar.gz":</br>
-</br>[Download Link](https://kilthub.cmu.edu/articles/dataset/National_Gallery_of_Art_InceptionV3_Features/10061885)
+[Download Link](https://kilthub.cmu.edu/articles/dataset/National_Gallery_of_Art_InceptionV3_Features/10061885)
 
 ## Version info
 This version runs in a local environment\,
