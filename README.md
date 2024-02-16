@@ -9,7 +9,8 @@ to check it out
 <ol>
   <li>
     Clone this repo to a local directory
-    ```git clone https://github.com/LimarAryan/x_art_bot.git```
+    ```shell
+    git clone https://github.com/LimarAryan/x_art_bot.git```
   </li>
 </ol>
 
