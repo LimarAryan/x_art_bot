@@ -10,15 +10,15 @@ Project is live on Twitter:
 ```bash
 git clone https://github.com/LimarAryan/x_art_bot.git
 ```
-2. Install tweepy, a python twitter package
-```bash
-pip install tweepy
-```
 2. Switch to the cloned repository folder
 ```bash
 cd path_to_directory\x_art_bot
 ```
-3. Run art_scraper.py from inside the directory</br>
+3. Install tweepy, a python twitter package
+```bash
+pip install tweepy
+```
+4. Run art_scraper.py from inside the directory</br>
 until you are satisfied with the amount of downloaded images into the **art_images** folder</br>
 ```bash
 python art_scraper.py
@@ -27,18 +27,13 @@ python art_scraper.py
 </br>Close terminal or Click CTRL + C to exit out of python script 
 </br>when you are satisfied with the image amount
 
-4. On line 8-11 in art_bot.py fill in your API keys:
-```python
-api_key = "x"
-api_secret = "x"
-access_token = "x"
-access_token_secret = "x"
-```
-**NOTE:** You must use a 3-legged OAuth API flow to get `access_token` and `access_token_secret`
-</br>Documentation for 3-legged OAuth flow can be found [here](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens)
-</br>Here is an example of python code needed for the 3-legged OAuth flow
-</br>to get your `access_token` and `access_token_secret`, once this is run 
-</br>and these are obtained you can delete this code from the program
+5. Use a 3-legged OAuth API flow to get `access_token` and `access_token_secret`
+</br>Twitter's documentation for 3-legged OAuth flow can be found [HERE](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens)
+</br>Here is an example of python code needed for the 3-legged flow
+</br>to get your `access_token` and `access_token_secret`, you can copy and paste this
+</br>into art_bot.py, run the python program once and then delete the code when
+</br>you get `access_token` and `access_token_secret` from the print message on the terminal
+</br>after these are obtained you can delete this code from the program
 ```python
 import requests
 from urllib.parse import quote
@@ -69,6 +64,15 @@ if response.status_code == 200:
 else:
     print("Failed to obtain request token.")
 ```
+
+6. On line 8-11 in art_bot.py fill in your API keys:
+```python
+api_key = "x"
+api_secret = "x"
+access_token = "x"
+access_token_secret = "x"
+```
+**NOTE:** 
 
 # Work Folder
 The 'work' folder containing JSON data</br>
