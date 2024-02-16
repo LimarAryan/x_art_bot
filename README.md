@@ -1,4 +1,4 @@
-#@x_art_bot🎨
+# @x_art_bot🎨
 ##Twitter Art Bot🖼️
 
 Project is live! 
