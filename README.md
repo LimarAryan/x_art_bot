@@ -8,7 +8,7 @@ to check it out
 
 
 This version runs in a local environment, 
-&emsp;however I am running the real
+however I am running the real
 version on an aws lambda function, 
 using an s3 bucket, and dynamodb.
 
