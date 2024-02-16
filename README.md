@@ -21,12 +21,11 @@ pip install tweepy
 4. Run **art_scraper.py** from inside the directory</br>
 until you are satisfied with the amount of downloaded
 </br>images into the `x_art_bot/art_images` folder</br>
+</br>**WARNING**: if you leave this script running continuously it will download 100,000 image files. Close the terminal or Click CTRL + C 
+</br>to exit out of the **art_scraper.py** python script when you are satisfied with the downloaded image amount
 ```bash
 python art_scraper.py
 ```
-**WARNING**: if you leave this script running continuously it will download 100,000 image files. Close the terminal or Click CTRL + C 
-</br>to exit out of the **art_scraper.py** python script when you are satisfied with the downloaded image amount
-
 5. Use a 3-legged OAuth API flow to get your `access_token` and `access_token_secret`
 </br>Twitter's documentation for 3-legged OAuth flow can be found [HERE](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens)
 </br></br>Here is an example of python code needed for the 3-legged flow
