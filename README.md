@@ -1,8 +1,8 @@
-# @x_art_bot🎨
-## Twitter Art Bot🖼️
+# Twitter Art Bot🖼️ @x_art_bot🎨
 
 Project is live! 
-[Click here](https://twitter.com/x_art_bot) to check it out
+[Click here](https://twitter.com/x_art_bot) 
+to check it out
 
 Using the National Gallery of Art's 
 online open access for artwork images
