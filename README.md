@@ -1,6 +1,6 @@
 # Twitter Art Bot v1🖼️
 
-##Project is live on Twitter: </br>**[@x_art_bot🎨](https://twitter.com/x_art_bot)**
+## Project is live on Twitter: </br>**[@x_art_bot🎨](https://twitter.com/x_art_bot)**
 
 <img src = 'https://github.com/LimarAryan/x_art_bot/assets/110574851/7b08c739-30fc-430e-a9ac-4735ddb2e647' width = '250'>
 
