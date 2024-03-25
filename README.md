@@ -88,8 +88,8 @@ file called "nearest_neighbors.tar.gz":</br>
 This version runs in a local environment,</br>
 however I am running the actual</br>
 x_art_bot account on an aws lambda function,</br>
-using an s3 bucket, and dynamodb. A brief explanation
-will be given in the next section.
+using an s3 bucket, and dynamodb. A brief explanation</br>
+will be given in the next section.</br>
 
 # AWS
 I am using all AWS free tier products to run this concurrently.</br>
@@ -97,8 +97,19 @@ I use AWS' lambda function, which allows you to run python scripts.</br>
 
 ## Lambda
 I have included the code that I'm using in lambda_function.py</br>
-Basically, what is happening is that I check the local tmp folder of the lambda instance and if there any items I delete them through a shell subprocess </br>
+Basically, what is happening is that I check the local tmp folder of </br>
+the lambda instance and if there any items I delete them through a shell subprocess </br>
 (because this is where I will be placing the img file). </br>
 I establish a connection to my twitter API through the keys and make my twitter posting function </br>
 I grab an artwork filename, and check if the filename for the artwork is already used </br>
-If it is not used, then it will post it to twitter </br>
+If it is not used, then it will post it to twitter. </br>
+A cloudwatch event is used to create a cron job so the script only runs every hour </br>
+(bot posts every hour)</br>
+
+## DynamoDB
+I use AWS' DynamoDB to place a simple txt of the filename that is already used </br>
+
+## S3 Bucket
+This is where the real magic is, in the s3 bucket I place image files that I scraped with art_scraper.py</br>
+Currently there are 10,000 images in my s3 bucket but I can always manually download more and them, </br>
+this part is sadly not automatic/concurrent like the others </br>
