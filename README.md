@@ -113,5 +113,4 @@ and compares the current filename to all the filenames already used. </br>
 
 ## S3 Bucket
 This is where the real magic happens, in the s3 bucket I place image files that I scraped with art_scraper.py</br>
-Currently there are 10,000 images in my s3 bucket but I can always manually download more and upload them to the s3 bucket, </br>
-this part is sadly not automatic/concurrent like the others, but takes little time / effort.</br>
+Currently there are 10,000 images in my s3 bucket but I can always manually download more and upload them to the bucket through aws cli.</br>
