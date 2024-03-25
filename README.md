@@ -95,7 +95,7 @@ will be given in the next section.
 I am using all AWS free tier products to run this concurrently.</br>
 I use AWS' lambda function, which allows you to run python scripts.</br>
 
-##Lambda
+## Lambda
 I have included the code that I'm using in lambda_function.py</br>
 Basically, what is happening is that I check the local tmp folder of the lambda instance and if there any items I delete them through a shell subprocess </br>
 (because this is where I will be placing the img file). </br>
