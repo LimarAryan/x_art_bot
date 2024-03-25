@@ -93,7 +93,7 @@ will be given in the next section.</br>
 
 # AWS
 I am using all AWS free tier products to run this concurrently.</br>
-I use AWS' lambda function, which allows you to run python scripts.</br>
+I use AWS lambda function for the python script, DynamoDB to store used filenames, and an S3 Bucket for the img files.</br>
 
 ## Lambda
 I have included the code that I'm using in lambda_function.py</br>
