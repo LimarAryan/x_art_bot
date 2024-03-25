@@ -113,5 +113,6 @@ so the lambda function when checking if a file is already used goes to DynamoDB,
 and compares the current filename to all the filenames already used. </br>
 
 ## S3 Bucket
-This is where the real magic happens, in the s3 bucket I place image files that I scraped with art_scraper.py</br>
-Currently there are 10,000 images in my s3 bucket but I can always manually download more and upload them to the bucket through aws cli.</br>
+This is where the real magic happens, in the s3 bucket I place image files </br>
+that I scraped with art_scraper.py. Currently there are 10,000 images in </br>
+my s3 bucket but I can always manually add more by uploading them to the bucket through aws cli.</br>
