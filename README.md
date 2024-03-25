@@ -99,17 +99,19 @@ I use AWS' lambda function, which allows you to run python scripts.</br>
 I have included the code that I'm using in lambda_function.py</br>
 Basically, what is happening is that I check the local tmp folder of </br>
 the lambda instance and if there any items I delete them through a shell subprocess </br>
-(because this is where I will be placing the img file). </br>
-I establish a connection to my twitter API through the keys and make my twitter posting function </br>
-I grab an artwork filename, and check if the filename for the artwork is already used </br>
+(because this is where the bot places the tmp img file from the s3 bucket the moment before it posts). </br>
+I establish a connection to my twitter API through the keys and define my twitter posting functions</br>
+I grab an artwork filename, and check if the filename for the artwork is already used (on dynamodb) </br>
 If it is not used, then it will post it to twitter. </br>
 A cloudwatch event is used to create a cron job so the script only runs every hour </br>
-(bot posts every hour)</br>
+(bot only posts every hour)</br>
 
 ## DynamoDB
-I use AWS' DynamoDB to place a simple txt of the filename that is already used </br>
+I use AWS' DynamoDB to place a simple string of the filename that is already used, </br>
+so the lambda function when checking if a file is already used goes to DynamoDB, </br>
+and compares the current filename to all the filenames already used. </br>
 
 ## S3 Bucket
-This is where the real magic is, in the s3 bucket I place image files that I scraped with art_scraper.py</br>
-Currently there are 10,000 images in my s3 bucket but I can always manually download more and them, </br>
-this part is sadly not automatic/concurrent like the others </br>
+This is where the real magic happens, in the s3 bucket I place image files that I scraped with art_scraper.py</br>
+Currently there are 10,000 images in my s3 bucket but I can always manually download more and upload them to the s3 bucket, </br>
+this part is sadly not automatic/concurrent like the others, but takes little time / effort.</br>
