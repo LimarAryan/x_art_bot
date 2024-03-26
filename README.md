@@ -22,7 +22,7 @@ pip install tweepy
 until you are satisfied with the amount of images
 </br>downloaded into the `x_art_bot/art_images` folder</br>
 </br>**WARNING**: if you leave this script running continuously it will download 100,000 image files. Close the terminal or Click `CTRL + C`
-</br>to exit out of the **art_scraper.py** python script when you are satisfied with the amount of images downloaded.
+</br>to exit out of the **art_scraper.py** script when you are satisfied with the amount of images downloaded.
 ```bash
 python art_scraper.py
 ```
