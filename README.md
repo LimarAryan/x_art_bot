@@ -12,7 +12,7 @@ git clone https://github.com/LimarAryan/x_art_bot.git
 ```
 2. Switch to the cloned repository folder
 ```bash
-cd path_to_directory\x_art_bot
+cd path_to_directory/x_art_bot
 ```
 3. Install tweepy, a python twitter package
 ```bash
