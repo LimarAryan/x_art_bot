@@ -23,7 +23,7 @@ images downloaded will go into the `x_art_bot/art_images` folder.
 ```bash
 python art_scraper.py
 ```
-</br>**WARNING**: if you leave this script running continuously it will download 100,000 image files. Close the terminal or Click `CTRL + C`
+**WARNING**: if you leave this script running continuously it will download 100,000 image files. Close the terminal or Click `CTRL + C`
 </br>to exit out of the **art_scraper.py** script when you are satisfied with the amount of images downloaded.
 
 6. Use a 3-legged OAuth API flow to get your `access_token` and `access_token_secret`
