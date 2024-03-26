@@ -104,22 +104,22 @@ the lambda instance and if there are any files in the /tmp/ folder I delete them
 (because this is where the bot places the /tmp/ img file from the s3 bucket the moment before it posts). </br></br>
 
 Then I establish a connection to my twitter API through the keys and define my twitter posting functions.</br>
-I grab an artwork filename, and check if the filename for the artwork is already used (from dynamodb) </br>
-If it is not used, then it will post it to twitter, and store the used filename in dynamodb. </br>
-**Important:** The python open-source "tweepy" is zipped up and placed as a 'layer' because this library is used.</br>
-A cloudwatch event is used to create a cron job so the script only runs every hour (meaning bot only posts every hour or so)</br>
+I grab an artwork filename, and check if the filename for the artwork is already used (with DynamoDB) </br>
+If it is not used, then it will post it to twitter, and store the new used filename in DynamoDB. </br>
+**Important:** The python open-source library "tweepy" is zipped up and placed as a 'layer' because this is how dependencies are used in lambda</br>
+Cloudwatch event is used to create a cron job so the script only runs every hour</br>
 
 ## DynamoDB
 I use AWS DynamoDB to save a simple txt string of the filename that is already used.</br>
 So the lambda function when checking if a file is already used goes to --> DynamoDB database, </br>
 --> then compares the *current* filename to <u>all</u> the filenames already used. </br>
 If it is not used, then it is posted. If it has already been used, then it will not be posted, </br>
-the img file is skipped, and the next img file is checked.</br>
+then that img file is skipped, and the next img file is checked.</br>
 
 ## S3 Bucket
 This is where the real magic happens, in the s3 bucket I upload img files </br>
-that I scraped with art_scraper.py from my local desktop. Currently there are 10,000 images in </br>
+that I scraped with art_scraper.py from my local terminal. Currently there are 10,000 images in </br>
 my s3 bucket, but I can always manually add more by uploading them through aws cli.</br>
-This part is not automatic, but takes little time. </br>
+This part is not automatic, but only takes little time and can be run in the background. </br>
 Perhaps I can update this later on to make it concurrent, </br>
 maybe with another lambda function ?
