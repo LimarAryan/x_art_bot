@@ -100,16 +100,16 @@ used filenames, and an S3 Bucket for the img files.</br>
 ## Lambda
 I have included the code that I'm using in lambda_function.py</br>
 Basically, what is happening is that I check the local tmp folder of </br>
-the lambda instance and if there any items I delete them through a shell subprocess </br>
-(because this is where the bot places the tmp img file from the s3 bucket the moment before it posts). </br>
-I establish a connection to my twitter API through the keys and define my twitter posting functions</br>
-I grab an artwork filename, and check if the filename for the artwork is already used (on dynamodb) </br>
-If it is not used, then it will post it to twitter. </br>
-A cloudwatch event is used to create a cron job so the script only runs every hour </br>
-(bot only posts every hour)</br>
+the lambda instance and if there are any files in the /tmp/ folder I delete them through a shell subprocess </br>
+(because this is where the bot places the /tmp/ img file from the s3 bucket the moment before it posts). </br>
+Then I establish a connection to my twitter API through the keys and define my twitter posting functions</br>
+I grab an artwork filename, and check if the filename for the artwork is already used (from dynamodb) </br>
+If it is not used, then it will post it to twitter, and store the used filename in dynamodb. </br>
+Important: The python package "tweepy" is zipped up and placed as a 'layer' because this library is used</br>
+A cloudwatch event is used to create a cron job so the script only runs every hour (meaning bot only posts every hour or so)</br>
 
 ## DynamoDB
-I use AWS' DynamoDB to place a simple string of the filename that is already used, </br>
+I use AWS DynamoDB to save a simple txt string of the filename that is already used,</br>
 so the lambda function when checking if a file is already used goes to DynamoDB, </br>
 and compares the current filename to all the filenames already used. </br>
 
