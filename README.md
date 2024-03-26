@@ -24,8 +24,8 @@ images downloaded will go into the `x_art_bot/art_images` folder.
 python art_scraper.py
 ```
 **WARNING**: if you leave this script running continuously it will download 100,000 image files. Close the terminal or Click `CTRL + C`
-</br>to exit out of the **art_scraper.py** script when you are satisfied with the amount of images downloaded.
-</br>
+</br>to exit out of the **art_scraper.py** script when you are satisfied with the amount of images downloaded.</br></br>
+
 6. Use a 3-legged OAuth API flow to get your `access_token` and `access_token_secret`
 </br>Twitter's documentation for 3-legged OAuth flow can be found [HERE](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens)
 </br></br>Here is an example of python code needed for the 3-legged OAuth flow
