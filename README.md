@@ -19,7 +19,7 @@ cd path_to_directory\x_art_bot
 pip install tweepy
 ```
 4. Run **art_scraper.py** from inside the directory</br>
-until you are satisfied with the amount of images downloaded into the `x_art_bot/art_images` folder.
+images downloaded will go into the `x_art_bot/art_images` folder.
 ```bash
 python art_scraper.py
 ```
