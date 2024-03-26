@@ -114,7 +114,7 @@ I use AWS DynamoDB to save a simple txt string of the filename that is already u
 So the lambda function when checking if a file is already used goes to --> DynamoDB database, </br>
 --> then compares the *current* filename to <u>all</u> the filenames already used. </br>
 If it is not used, then it is posted. If it has already been used, then it will not be posted, </br>
-then that img file is skipped, and the next img file is checked.</br>
+and that img file is skipped, and the next img file is checked.</br>
 
 ## S3 Bucket
 This is where the real magic happens, in the s3 bucket I upload img files </br>
