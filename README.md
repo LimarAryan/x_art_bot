@@ -101,8 +101,8 @@ used filenames, and an S3 Bucket for the img files.</br>
 I have included the code that I'm using in lambda_function.py</br>
 Basically, what is happening is that I check the local tmp folder of </br>
 the lambda instance and if there are any files in the /tmp/ folder I delete them through a shell subprocess </br>
-(because this is where the bot places the /tmp/ img file from the s3 bucket the moment before it posts). </br>
-Then I establish a connection to my twitter API through the keys and define my twitter posting functions</br>
+(because this is where the bot places the /tmp/ img file from the s3 bucket the moment before it posts). </br></br>
+Then I establish a connection to my twitter API through the keys and define my twitter posting functions.</br>
 I grab an artwork filename, and check if the filename for the artwork is already used (from dynamodb) </br>
 If it is not used, then it will post it to twitter, and store the used filename in dynamodb. </br>
 Important: The python package "tweepy" is zipped up and placed as a 'layer' because this library is used</br>
