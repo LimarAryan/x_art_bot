@@ -77,7 +77,8 @@ python art_bot.py
 
 # Work Folder
 The 'work' folder containing JSON data</br>
-is provided by Carnegie Mellon University</br>
+which is provided by the amazing students at</br> 
+Carnegie Mellon University</br>
 with 100,000 already scraped / crawled image</br>
 sites and metadata. You can download it</br>
 from my repo, or from this link as a zipped</br>
