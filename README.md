@@ -27,7 +27,7 @@ python art_scraper.py
 </br>to exit out of the **art_scraper.py** script when you are satisfied with the amount of images downloaded.</br></br>
 
 6. Use a 3-legged OAuth API flow to get your `access_token` and `access_token_secret`
-</br>Twitter's documentation for 3-legged OAuth flow can be found [HERE](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens)
+</br>Twitter's Developer documentation for 3-legged OAuth flow can be found [HERE](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens)
 </br></br>Here is an example of python code needed for the 3-legged OAuth flow
 </br>to get your `access_token` and `access_token_secret`, you can copy and paste the code below
 </br>into **art_bot.py**, run the python program once and a print message on the terminal screen should pop up with your
