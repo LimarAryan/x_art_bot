@@ -106,8 +106,8 @@ the lambda instance and if there are any files in the /tmp/ folder I delete them
 Then I establish a connection to my twitter API through the keys and define my twitter posting functions.</br>
 I grab an artwork filename, and check if the filename for the artwork is already used (with DynamoDB) </br>
 If it is not used, then it will post it to twitter, and store the new used filename in DynamoDB. </br>
-**Important:** The python open-source library "tweepy" is zipped up and placed as a 'layer' because this is how dependencies are used in lambda</br>
-Cloudwatch event is used to create a cron job so the script only runs every hour</br>
+**Important:** The python open-source library "tweepy" is zipped up and placed as a 'layer' because this is how dependencies are used in lambda.</br>
+A 'Cloudwatch Event' is used to create a cron job so the script only runs every hour.</br>
 
 ## DynamoDB
 I use AWS DynamoDB to save a simple txt string of the filename that is already used.</br>
